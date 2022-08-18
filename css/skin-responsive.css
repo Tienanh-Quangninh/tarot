@@ -1,0 +1,36 @@
+/* Skin-specific responsive styles
+---------------------------------- */
+@media (max-width: 1279px) {
+  #add_payment_method table.cart td.actions .coupon .input-text,
+  .woocommerce-cart table.cart td.actions .coupon .input-text,
+  .woocommerce-checkout table.cart td.actions .coupon .input-text {
+    max-height: 3.1875rem; } }
+@media (max-width: 1023px) {
+  /* Theme Common styles */
+  .scheme_dark .sidebar aside.widget_search,
+  .scheme_dark .sidebar aside.woocommerce.widget_product_search,
+  .scheme_dark .sidebar aside.widget_display_search {
+    background-image: inherit; } }
+@media (max-width: 767px) {
+  .single-product ul.products li.product .post_data {
+    opacity: 0; }
+
+  .single-cpt_services .wp-block-column:not(:last-child) {
+    margin: 0; }
+
+  .trx_addons_audio_player .audio_caption, .trx_addons_audio_player .audio_author + .audio_caption {
+    margin: 0rem 0 1.5rem; } }
+@media (max-width: 479px) {
+  #tribe-bar-form .tribe-bar-submit:after {
+    top: 0.2rem; }
+
+  .single .tribe-events-sub-nav li a {
+    display: block !important; }
+
+  .single #tribe-events-footer .tribe-events-sub-nav li {
+    max-width: 45%; }
+
+  .single_style_in-below .post_header_wrap {
+    margin-bottom: 1em; } }
+
+/*# sourceMappingURL=skin-responsive.css.map */

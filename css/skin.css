@@ -1,0 +1,261 @@
+/* 2. Default tag's settings
+-------------------------------------------------------------- */
+dt, b, strong {
+  font-weight: 400; }
+
+/* Blockquotes*/
+blockquote > cite, blockquote > p > cite,
+blockquote > .wp-block-pullquote__citation,
+.wp-block-quote .wp-block-quote__citation {
+  font-weight: 400; }
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+  padding: 5.3rem 2rem 4.7rem; }
+
+.comments_list_wrap .comment_text blockquote p {
+  font-size: 1.5rem; }
+
+/* Default header layouts
+---------------------------------------------- */
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 1.5rem;
+  line-height: 1.25em;
+  font-style: normal;
+  font-weight: 400; }
+
+.sc_layouts_title_breadcrumbs .breadcrumbs {
+  margin-top: 0.875rem; }
+
+/* Sidebar
+---------------------------------------------- */
+.widget_area .post_item .post_title,
+aside .post_item .post_title {
+  font-weight: 400; }
+
+/* Post Formats
+-------------------------------------------------------------- */
+.post_layout_excerpt {
+  border: 0px solid; }
+
+.single_style_in-below article.post_item_single,
+.related_wrap.related_style_classic .related_item,
+.author_info,
+.related_wrap.related_style_classic .post_featured + .post_header {
+  border: 0px solid; }
+
+.author_avatar,
+.comments_list_wrap .comment_author_avatar img {
+  filter: grayscale(0%); }
+
+/* Audio */
+.format-audio .post_featured .post_audio_author,
+.trx_addons_audio_player .audio_author,
+.sc_layouts_blog_item_featured .post_featured .post_audio_author {
+  font-weight: 400; }
+
+.single_style_in-below:not(.single-format-video) .post_header_wrap .post_featured + .post_header {
+  border: 0; }
+
+/* TRX Addons
+-------------------------------------------------- */
+/* Skills */
+.sc_skills_pie.sc_skills_compact_off .sc_skills_total,
+.sc_skills_counter .sc_skills_item_title,
+.sc_skills_pie.sc_skills_compact_off .sc_skills_item_title,
+.sc_skills_counter .sc_skills_total {
+  font-weight: 400;
+  font-style: normal; }
+
+.sc_skills_counter .sc_skills_icon {
+  font-size: 7.3rem; }
+
+/* Testimonials */
+.sc_testimonials .sc_testimonials_item_content {
+  padding: 4.3rem 4.37rem 5rem; }
+
+.sc_testimonials_masonry .sc_testimonials_item_author_data {
+  margin: 0 auto 15px; }
+
+.sc_testimonials_item_author_avatar {
+  outline: 0;
+  border: 5px solid;
+  box-sizing: content-box; }
+
+.sc_testimonials_item_author_avatar,
+.sc_testimonials_item_author_data {
+  margin: -2.3rem auto 3.3125rem; }
+
+.sc_testimonials_item_author_data {
+  margin-bottom: 0; }
+
+.sc_testimonials_masonry .sc_testimonials_item_author_avatar {
+  margin: -2.25rem auto 0.9375rem; }
+
+.sc_testimonials_item_author_title {
+  font-weight: 400; }
+
+/* Price */
+.sc_price_item_title,
+.sc_price_item_price {
+  font-weight: 400; }
+
+/* Title */
+.tribe-events-page-title,
+.single-product .related > h2,
+.single-cpt_courses .related_wrap_title,
+.single-cpt_courses .comments_form_title,
+.single-cpt_services .related_wrap_title,
+.single-cpt_services .comments_form_title,
+.page .comments_form_title,
+.single-cpt_team .comments_form_title {
+  font-weight: 400; }
+
+.sc_item_subtitle {
+  font-weight: 400;
+  font-style: normal; }
+
+h2.sc_item_title {
+  line-height: 1.06em; }
+
+.tribe-events-page-title, .single-product .related > h2,
+.sc_item_title.sc_item_title_style_accent,
+.single-cpt_services .related_wrap_title,
+.single-cpt_team .comments_form_title,
+.single-cpt_services .comments_form_title,
+.page .comments_form_title,
+.single-cpt_courses .related_wrap_title,
+.single-cpt_courses .comments_form_title {
+  padding-top: 1.9rem; }
+
+.sc_item_subtitle_below {
+  margin-top: 1.6rem; }
+
+/* Services */
+.sc_services_item_title {
+  font-weight: 400; }
+
+.sc_services_default .sc_services_item {
+  padding: 2.8rem 1.7rem 3.4rem; }
+
+.sc_services_default .sc_services_item_info {
+  padding: 1.25rem 0 0; }
+
+.sc_services_default .sc_services_item_icon,
+.sc_services_default .sc_services_item_pictogram {
+  width: 7.3125rem;
+  height: 7.3125rem;
+  line-height: 7.3125rem;
+  text-align: center;
+  width: auto; }
+
+.single-cpt_services.sidebar_hide.expand_content article.services_single,
+.single-cpt_services.sidebar_hide.expand_content .comments_form_wrap .comments_form {
+  max-width: 100%; }
+
+.services_single .services_page_header {
+  margin-bottom: 2.7rem; }
+
+.services_single .services_page_content p {
+  font-size: 0.875rem;
+  line-height: 1.8em; }
+
+.related_wrap .sc_services_item_thumb {
+  max-width: 12.5rem;
+  margin: 0 auto; }
+
+.related_wrap.sc_services_default .sc_services_item {
+  padding: 1.8rem 1.7rem 5.1rem; }
+
+/* Icons */
+.sc_icons .sc_icons_item_title {
+  font-weight: 400; }
+
+.sc_icons_border.spacer .sc_icons_item {
+  padding: 2.3rem 1rem; }
+
+.sc_icons_border .sc_icons_item_title {
+  font-size: 1.5rem; }
+
+.sc_icons_border .sc_icons_item_details {
+  margin-top: 1.375rem; }
+
+/* Courses */
+.sc_courses_item,
+.sc_courses_default .sc_courses_item_categories a {
+  border: 0; }
+
+/* Events */
+.sc_events_default .sc_events_item_thumb,
+.single-tribe_events .tribe-events-event-image,
+.single-tribe_events .tribe-events-venue-map {
+  border: 0; }
+
+.tribe-events-meta-group .tribe-events-single-section-title {
+  font-weight: 400; }
+
+.tribe-events .tribe-events-c-ical__link {
+  border-width: 0.125rem !important; }
+
+.tribe-events .tribe-events-c-top-bar__datepicker-separator {
+  margin-top: -5px; }
+
+/* Elementor
+-------------------------------------------------- */
+/* Widget progress */
+.elementor-widget-progress .elementor-title {
+  font-weight: 400; }
+
+/* Accordion */
+.eael-accordion-list {
+  border: 0px; }
+
+.eael-adv-accordion .eael-accordion-list .eael-accordion-header {
+  font-style: normal;
+  font-weight: 400; }
+
+/* Woocommerce
+-------------------------------------------------- */
+.woocommerce ul.cart_list li a:not(.remove),
+.woocommerce-page ul.cart_list li a:not(.remove),
+.woocommerce ul.product_list_widget li a:not(.remove),
+.woocommerce-page ul.product_list_widget li a:not(.remove),
+.woocommerce ul.cart_list li > .amount,
+.woocommerce ul.product_list_widget li > .amount,
+.woocommerce-page ul.cart_list li > .amount,
+.woocommerce-page ul.product_list_widget li > .amount,
+.woocommerce ul.cart_list li span .amount,
+.woocommerce ul.product_list_widget li span .amount,
+.woocommerce-page ul.cart_list li span .amount,
+.woocommerce-page ul.product_list_widget li span .amount,
+.woocommerce ul.cart_list li ins .amount,
+.woocommerce ul.product_list_widget li ins .amount,
+.woocommerce-page ul.cart_list li ins .amount,
+.woocommerce-page ul.product_list_widget li ins .amount,
+.woocommerce .widget_price_filter .price_slider_amount span,
+.woocommerce.widget_shopping_cart .total span,
+.woocommerce .widget_shopping_cart .total span,
+.woocommerce-page.widget_shopping_cart .total span,
+.woocommerce-page .widget_shopping_cart .total span,
+.woocommerce ul.products li.product .price,
+.woocommerce-page ul.products li.product .price,
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce .cart-collaterals .cart_totals table th,
+.woocommerce-page .cart-collaterals .cart_totals table th,
+.woocommerce table.shop_table th {
+  font-weight: 400 !important; }
+
+.woocommerce ul.products li.product .post_featured + .post_data,
+.woocommerce-page ul.products li.product .post_featured + .post_data,
+.woocommerce ul.products li.product > .post_item.post_layout_thumbs {
+  border: 0; }
+
+/*# sourceMappingURL=skin.css.map */
